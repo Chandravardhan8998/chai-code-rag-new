@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.log
+
+# FastAPI / Uvicorn
+instance/
+.env
+.env.*.local
+*.sqlite3
+
+# Virtualenv
+venv/
+env/
+.venv/
+ENV/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+
+# Coverage reports
+htmlcov/
+coverage.xml
+*.cover
+.cache
+.tox/
+
+# Pytest
+.pytest_cache/
+
+# Mypy
+.mypy_cache/
+
+# Pydantic settings
+*.json
+
+# Docker
+*.pid
+docker-compose.override.yml
+
+# Logs
+*.log
+
+# Others
+*.bak
+*.orig
